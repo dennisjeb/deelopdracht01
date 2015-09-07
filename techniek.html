@@ -1,52 +1,113 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<link type="text/css" rel="stylesheet" href="stylesheet.css" />
-			<title>Techniek pagina</title
-		</head>
-		<body>
-			<h1>Techniek en andere info</h1>
-				<img src="images/techniek.jpg" alt="techniek afbeelding" style="width:1000px;height:500px;">
-			<br><br>
-			<h3>Informatie over techniek en andere info</h3>
-					<p>
-						Op dit deel van de pagina kun je vinden wat voor verschillende software ik gebruik.<br>
-						Verder vind je hier allerlei handige technische informatie.</p>
-			<h3>Sequence Diagram "Werking statische pagina"</h3>
-				<p>
-				De volgende afbeelding laat zien wat er nou eigenlijk gebeurd achter de schermen als er bijvoorbeeld iemand naar www.google.nl gaat.<br>
-				Het begint bij de user die een HTTP-request doet in zijn browser. Vervolgens volgt dit HTTP-request een weggetje af en wordt er vanaf de webserver weer een antwoord teruggegeven.</p>	
-			<h3>Sequence Diagram "werking statische pagina" afgebeeld:</h3>
-				<img src="images/sequencediagram.png" alt="sequencediagram afbeelding" style="width:800px;height:450px;">
-			<h3>Tabel uitleg: "werking websysteem"</h3>
-		<table>
-	        <thead>
-	            <tr>
-	                <th>Webserver</th>
-	            </tr>
-	        </thead>
-	        <tbody>
-	            <tr>
-	                <td><a href="http://windows.microsoft.com/nl-nl/windows/what-is-user-account#1TC=windows-7"><img src="http://www.eightforums.com/geek/gars/images/1/9/types/thumb_User.png" /img></a></td>
-	                <td><a href="https://nl.wikipedia.org/wiki/Hypertext_Transfer_Protocol#HTTP-requests"><img src="https://www3.ntu.edu.sg/home/ehchua/programming/webprogramming/images/HTTP_RequestMessageExample.png" /img></a></td>
-	                <td><a href="https://nl.wikipedia.org/wiki/Hypertext_Transfer_Protocol#HTTP-responses"><img src="https://www3.ntu.edu.sg/home/ehchua/programming/webprogramming/images/HTTP_ResponseMessageExample.png" /img></a></td>
-	            </tr>
-	            <tr>
-	                <td><a href="https://nl.wikipedia.org/wiki/Internet"><img src="http://www.freediscovery.nl/files/2014/07/internet.jpg" /img></a></td>
-	                <td><a href="https://nl.wikipedia.org/wiki/Webserver"><img src="http://icons.iconarchive.com/icons/fasticon/servers/128/web-server-icon.png
-" /img></a></td>
-	                <td><a href="https://nl.wikipedia.org/wiki/Computer"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Computer-aj_aj_ashton_01.svg/2000px-Computer-aj_aj_ashton_01.svg.png
-" /img></a></td>
-	            </tr>
-	            <tr>
-	                <td><a href="https://nl.wikipedia.org/wiki/Layout-engine"><img src="http://www.moderncollege.edu.pk/assets/images/vray/3.jpg" /img></a></td>
-	                <td><a href="https://nl.wikipedia.org/wiki/Webbrowser"><img src="http://www.jeroen.com/images/browsersicons.png" /img></a></td>
-	                <td><a href="https://nl.wikipedia.org/wiki/Webpagina"><img src="http://www.pclooptvast.nl/_contentimages/2015-04-09-13-57-36.Wat%20is%20html%20en%20verschil%20xml%20verschil%20tussen%20xhtml%20uitleg%20en%20hoe%20werk%20je%20ermee.png" /img></a></td>
-	            </tr>
-	        </tbody>
-	    </table>
-	    		<p>
-					&copy; Copyright  by Dennis
-				</p>
-		</body>
+<html>
+
+  <head>
+  	
+  	 <!--Stylesheets: main.css en bootstrap.css locatie: folder: stylesheets-->
+  	 
+  	 <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/main.css">
+    
+    <title>Dennis - Techniek</title>
+    
+  </head>
+
+  <body>
+  	<div class="nav">
+  	 	<nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <ul class="nav nav-tabs">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="persoonlijk.html">Persoonlijk</a></li>
+          <li><a href="motivatie.html">Motivatie</a></li>
+          <li class="active"><a href="techniek.html">Techniek</a></li>
+          <li><a href="sitemap.html">Site Map</a></li>
+        </ul>
+      </div>
+     </nav>
+    </div>
+
+	<div>
+		<div class="technieksequence">
+			<div class="container">
+				<div class="row">
+	      		<div class="col-md-8">
+	      			<h1>Techniek</h1>
+	      			<p>Deze pagina bevat informatie als het gaat om kennis van allerlei soorten techniekken op het gebied van IT.</p>
+					<h2>Sequence diagram</h2>
+					<p>Deze squence diagram laat zien wat er gebeurd als er een HTTP-request wordt uitgevoerd door de gebruiker.</p>
+					<div class="thumbnail">
+                        <img src="images/sequencediagram.jpg">
+                    </div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div>
+		<div class="techniektable">
+			<div class="container">
+				<div class="row">
+	      		<div class="col-md-8">
+				<h2>Onderdelen sequence diagram</h2>
+				<p>Deze tabel bevat de belangrijkste onderdelen uit de bovenstaande sequence diagram.</p>
+				<table>
+					<tr>
+						<th><a href="http://windows.microsoft.com/nl-nl/windows/what-is-user-account#1TC=windows-7"target="_blank"><img src="images/user.jpg" /></a></th>	
+						<th><a href="https://nl.wikipedia.org/wiki/Hypertext_Transfer_Protocol#HTTP-requests"target="_blank"><img src="images/http-request.jpg" /></a></th>
+						<th><a href="https://nl.wikipedia.org/wiki/Webbrowser"target="_blank"><img src="images/browsers.jpg" /></a></th>
+					</tr>
+					<tr>
+						<th>Gebruiker</th>
+						<th>HTTP-request</th>
+						<th>Browser</th>
+					</tr>
+					<tr>
+						<th><a href="https://nl.wikipedia.org/wiki/Internet"target="_blank"><img src="images/internet.jpg" /></a></th>	
+						<th><a href="https://nl.wikipedia.org/wiki/Webserver"target="_blank"><img src="images/webserver.jpg" /></a></th>
+						<th><a href="https://nl.wikipedia.org/wiki/Hypertext_Transfer_Protocol#HTTP-responses"target="_blank"><img src="images/http-response.jpg" /></a></th>
+					</tr>
+					<tr>
+						<th>Internet</th>
+						<th>HTTP-response</th>
+						<th></th>
+					</tr>	
+					<tr>
+						<th><a href="https://nl.wikipedia.org/wiki/Computer"target="_blank"><img src="images/desktop.jpg" /></a></th>	
+						<th><a href="https://nl.wikipedia.org/wiki/Layout-engine"target="_blank"><img src="images/renderengine.jpg" /></a></th>
+						<th><a href="https://nl.wikipedia.org/wiki/Webpagina"target="_blank"><img src="images/webpage.jpg" /></a></th>
+					</tr>
+					<tr>
+						<th>Gebruiker</th>
+						<th>HTTP-request</th>
+						<th>Browser</th>
+					</tr>
+				</table>
+				</div>
+				</div>
+			</div>
+		</div
+	</div>
+<br><br><br><br>
+<br><br><br><br>
+
+	<div class="onderkant">
+		<div class="container">
+	    <div class="row">
+	      </div>
+		  <div class="col-md-8">
+					  	<br><br><br><br><br><br>
+			<p>&copy; Copyright 2015 Dennis Boogaard</p>
+			</div>
+		  <div class="col-md-4">
+			<h3>Contact</h3>
+			<p>Dennis Boogaard<br>Dorpsstraat 53<br>4373 AD		BIGGEKERKE</p>
+			<p>dennisjeb@hotmail.com</p>
+		 </div>
+	    </div>
+	  </div>
+	</div>
+	
+  </body>
 </html>
