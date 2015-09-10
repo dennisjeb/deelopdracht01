@@ -39,7 +39,7 @@ body {
 .jumbotron h1 {
   color: #fff;
   font-size: 48px;  
-  font-family: 'Shift', sans-serif;
+  font-family: sans-serif;
   font-weight: bold;
 }
 
@@ -65,7 +65,7 @@ body {
 }
 
 .leesmeer p {
-	color:#253529
+	color:#253529;
 	font-weight: bold;
 	font-family: sans-serif;
 }
@@ -82,7 +82,7 @@ body {
 }
 
 .leesmeer2 p {
-	color:#253529
+	color:#253529;
 	font-weight: bold;
 	font-family: sans-serif;
 }
@@ -99,8 +99,114 @@ body {
     margin-bottom: 13px;
 }
 
-.profiel{
-	
+table {
+    border-collapse:separate;
+    border:solid 10px;
+    border-radius:6px;
+    border-style: ridge;
+    border-color: #B2BEB5;
+}
+
+.techniektable th:hover {
+	background-color:#848482;
+}
+
+th {
+	text-align: center;
+	height: 50px;
+	border-collapse:separate;
+    border:solid 10px;
+    border-radius:6px;
+    border-style: outset;
+    border-color: #B2BEB5;
+}
+
+.profiel h1 {
+  	font-family: sans-serif;
+  	font-size: 30px;
+  	font-weight: bold;
+  	color:#253529;
+}
+
+.profiel h2 {
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color:#253529;
+}
+
+.profiel p {
+	color:#253529;
+	font-weight: bold;
+	font-family: sans-serif;
+
+}
+
+.hobbys h2 {
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color:#253529;
+}
+
+.hobbys p {
+	color:#253529;
+	font-weight: bold;
+	font-family: sans-serif;
+
+}
+
+.motivatie h1 {
+  	font-family: sans-serif;
+  	font-size: 30px;
+  	font-weight: bold;
+  	color:#253529;
+}
+
+.motivatie p {
+	color:#253529;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+.technieksequence h1 {
+  	font-family: sans-serif;
+  	font-size: 30px;
+  	font-weight: bold;
+  	color:#253529;
+}
+
+.technieksequence h2 {
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color:#253529;
+}
+
+.technieksequence p {
+	color:#253529;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+.techniektable h2 {
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color:#253529;
+}
+
+.techniektable p {
+	color:#253529;
+	font-weight: bold;
+	font-family: sans-serif;
+} 
+
+.sitemap h1 {
+  	font-family: sans-serif;
+  	font-size: 30px;
+  	font-weight: bold;
+  	color:#253529;
 }
 
 .onderkant {
@@ -117,7 +223,7 @@ body {
 }
 
 .onderkant p {
-	color:#253529
+	color:#253529;
 	font-weight: bold;
 	font-family: sans-serif;
 }
@@ -129,7 +235,7 @@ body {
 }
 
 .onderkant-motivatie {
-	background-color:#848482;
+	background-color: #848482;
 	border-top: thick solid;
     border-top-color: #B2BEB5;
 }
@@ -142,7 +248,7 @@ body {
 }
 
 .onderkant-motivatie p {
-	color:#253529
+	color:#253529;
 	font-weight: bold;
 	font-family: sans-serif;
 }
